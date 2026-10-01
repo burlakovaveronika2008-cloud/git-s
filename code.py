@@ -10,3 +10,5 @@ def divide(a, b):
     return a / b
     if b == 0:
         return "ошибка"
+def multiply(a,b):
+    return a * b
