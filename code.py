@@ -8,3 +8,5 @@ def subtract(a, b):
 def divide(a, b):
     # ОШИБКА: нет проверки деления на ноль
     return a / b
+    if b == 0:
+        return "ошибка"
